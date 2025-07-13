@@ -58,9 +58,13 @@ The main goal is to test the hypothesis:
 
 ## Tested Environment
 
-- **Last updated:** Jul 12, 2025
-- **Tested with Python versions:** 3.10 – 3.13
-- **OS compatibility:** Developed and tested on Windows; should work on Unix/macOS systems as well
+- **Last updated:** Jul 12, 2025  
+- **Environment:**  
+  • Python 3.11  
+  • PostgreSQL 16 (executed via pgAdmin 4)  
+  • Tableau Public 2024.3  
+- **OS compatibility:** Developed and tested on Windows; expected to run on Unix/macOS as well
+
 
 ---
 
@@ -68,19 +72,19 @@ The main goal is to test the hypothesis:
 
 ```
 .
-├── csv_to_postgresql.py                # Python ETL script
-├── SQL_Portfolio_Democracy_Index.sql  # All SQL transformations
-├── Input_DI/                           # Raw CSV datasets
+├── Input_Datasets/                   # Raw CSV datasets
 │   ├── Democracy_Index_2006_2023.csv
 │   ├── Population.csv
 │   ├── Press_Freedom.csv
 │   ├── Life_expectancy.csv
 │   └── Education.csv
-├── Final_csv_for_Tableau/             # Output CSVs exported from PostgreSQL
-├── Portfolio_DemocracyIndex_Final.twbx # Tableau workbook
-├── Portfolio_DemocracyIndex_Story.pdf  # Exported Tableau story
-├── requirements.txt                    # Required Python packages
-└── README.md                           # You are here
+├── csv_to_sql_tables.py              # All Python transformations
+├── data_manipulation.sql             # All SQL transformations
+├── Files_SQL_to_Tableau/             # Output CSVs exported from PostgreSQL for Tableau
+├── visualizations.twbx               # Tableau workbook
+├── Tableau_Story.pdf                 # Exported Tableau story
+├── requirements.txt                  # Required Python packages
+└── README.md                         # You are here
 ```
 
 ---
@@ -116,17 +120,17 @@ pip install -r requirements.txt
 
 - Install PostgreSQL (if not already)
 - Create a database named `Democracy_Index_Portfolio`
-- Adjust credentials in [`csv_to_postgresql.py`](./csv_to_postgresql.py) if needed
+- Adjust credentials in [`csv_to_sql_tables.py`](./csv_to_sql_tables.py) if needed
 
 ### C) Run Python Script
 
 ```bash
-python csv_to_postgresql.py
+python csv_to_sql_tables.py
 ```
 
 ### D) Run SQL Script
 
-- Open [`SQL_Portfolio_Democracy_Index.sql`](./SQL_Portfolio_Democracy_Index.sql) in pgAdmin or a SQL editor
+- Open [`data_manipulation.sql`](./data_manipulation.sql) in pgAdmin or a SQL editor
 - Execute all queries to generate cleaned, joined, and aggregated tables
 
 ### E) Load into Tableau
@@ -140,9 +144,7 @@ python csv_to_postgresql.py
 
 Complete dataset references are documented in:
 
-- [`csv_to_postgresql.py`](./csv_to_postgresql.py) (during ETL process)
-- [`data_manipulation.sql`](./data_manipulation.sql) (during SQL joins)
-- [`Tableau_Story.pdf`](./Tableau_Story.pdf) (with data source footnotes)
+- [Alternative 1 – PDF Report](https://github.com/Dan131O/Democracy_Index_Analysis_Alternative1/blob/main/Project_Report.pdf)
 
 ---
 
