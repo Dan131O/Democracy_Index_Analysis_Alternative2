@@ -19,9 +19,13 @@ Depending on your interest, you can explore this project in the following ways:
    - Data cleaning and transformation using SQL\
      → [`data_manipulation.sql`](./data_manipulation.sql)
    - Interactive visualizations with Tableau\
-     → [`visualizations.twbx`](./visualizations.twbx) Use this option if you're interested in the data-processing pipeline, code, or want to explore/customize the dashboard in Tableau.
+     → [`visualizations.twbx`](./visualizations.twbx)  
+     
+     Use this option if you're interested in the data-processing pipeline, code, or want to explore/customize the dashboard in Tableau.
+
 2. **Visualization summary only:**
    - Open [`Tableau_Story.pdf`](./Tableau_Story.pdf) to view the interactive dashboard story exported from Tableau Public
+
 3. **Interpretation and written analysis:**
    - See the report in [Alternative 1 – PDF Report](https://github.com/Dan131O/Democracy_Index_Analysis_Alternative1/blob/main/Project_Report.pdf)\
      Offers written interpretation of the results and detailed commentary
@@ -45,13 +49,13 @@ The main goal is to test the hypothesis:
 
 ## Core Analytical Steps
 
-1. **Python script **[``](./csv_to_sql_tables.py)**:**
+1. **Python script **[`csv_to_sql_tables.py`](./csv_to_sql_tables.py)**:**
 
    - Reads `.csv` datasets from `Input_Datasets/`
    - Cleans column names and detects data types
    - Creates and populates SQL tables in PostgreSQL
 
-2. **SQL script **[``](./data_manipulation.sql)**:**
+2. **SQL script **[`data_manipulation.sql`](./data_manipulation.sql)**:**
 
    - Cleans and standardizes all PostgreSQL tables
    - Joins datasets by country and year
