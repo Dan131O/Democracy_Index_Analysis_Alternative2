@@ -133,7 +133,7 @@ The main goal is to test the hypothesis:
    python csv_to_sql_tables.py
    ```
    This script:
-   - Reads all raw CSVs from [`Input_Dateset/`](./Input_Dateset/)
+   - Reads all raw CSVs from [`Input_Datasets/`](./Input_Datasets)
    - Cleans headers and maps data types
    - Automatically creates and populates PostgreSQL tables
 
@@ -144,7 +144,7 @@ The main goal is to test the hypothesis:
      - Clean and join the base tables
      - Aggregate metrics
      - Produce multiple new summary tables
-   - These final summary tables have to be **manually exported to `.csv`** and saved in [`Files_SQL_to_Tableau/`](./Files_SQL_to_Tableau/)  
+   - These final summary tables have to be **manually exported to `.csv`** and saved in [`Files_SQL_to_Tableau/`](./Files_SQL_to_Tableau)  
      *(This step is necessary because Tableau Public cannot connect directly to SQL databases.)*
 
 8. **Explore in Tableau**
