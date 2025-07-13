@@ -25,12 +25,12 @@ Depending on your interest, you can explore this project in the following ways:
 
 2. **Visualization summary only:**
 
-   - Open `Tableau_Story.pdf` to view the interactive dashboard story exported from Tableau Public.
+   - Open `Tableau_Story.pdf` to view the interactive dashboard story exported from Tableau Public
 
 3. **Interpretation and written analysis:**
 
    - See the report in [Alternative 1 – PDF Report](https://github.com/Dan131O/Democracy_Index_Analysis_Alternative1/blob/main/Project_Report.pdf)  
-   - Offers written interpretation of the results and detailed commentary.
+   - Offers written interpretation of the results and detailed commentary
 
 ---
 
@@ -51,12 +51,12 @@ The main goal is to test the hypothesis:
 
 ## Core Analytical Steps
 
-1. **Python script `csv_to_postgresql.py`:**
-   - Reads `.csv` datasets from `Input_DI/`
+1. **Python script `csv_to_sql_tables.py`:**
+   - Reads `.csv` datasets from `Input_Datasets/`
    - Cleans column names and detects data types
    - Creates and populates SQL tables in PostgreSQL
 
-2. **SQL script `SQL_Portfolio_Democracy_Index.sql`:**
+2. **SQL script `data_manipulation.sql`:**
    - Cleans and standardizes all PostgreSQL tables
    - Joins datasets by country and year
    - Aggregates indicators by regime type
@@ -64,8 +64,8 @@ The main goal is to test the hypothesis:
 
 3. **Tableau Public Dashboard:**
    - Final tables exported manually to `.csv`
-   - Visualized in `Portfolio_DemocracyIndex_Final.twbx`
-   - Story PDF in `Portfolio_DemocracyIndex_Story.pdf`
+   - Visualized in `visualizations.twbx`
+   - Story PDF in `Tableau_Story.pdf`
 
 ---
 
