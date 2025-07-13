@@ -2,13 +2,12 @@
 
 **A modular analysis pipeline of global Democracy Index data, using Python, PostgreSQL, and Tableau for structured data transformation, querying, and visualization.**
 
-This is the **second alternative** of the Democracy Index project. For the notebook-based first alternative, see:  
+This is the **second alternative** of the Democracy Index project. For the first alternative that is entirely based on Python and Jupyter, see:  
 [Alternative 1 – Python + Jupyter](https://github.com/Dan131O/Democracy_Index_Analysis_Alternative1)  
-[Alternative 1 – PDF Report](https://github.com/Dan131O/Democracy_Index_Analysis_Alternative1/blob/main/Project_Report.pdf)
 
 ---
 
-## 📊 How to View This Project
+## How to View This Project
 
 Depending on your interest, you can explore this project in the following ways:
 
