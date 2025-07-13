@@ -14,16 +14,18 @@ Depending on your interest, you can explore this project in the following ways:
 1. **Full technical pipeline:**
 
    Includes:
-   - Python ETL script → `csv_to_sql_tables.py`
-   - SQL transformation logic → `data_manipulation.sql`
-   - Tableau workbook → `visualizations.twbx`
+   - CSV-to-PostgreSQL table creation via Python  
+   → `csv_to_sql_tables.py`
+   - Data cleaning and transformation using SQL  
+   → `data_manipulation.sql`
+   - Interactive visualizations with Tableau  
+   → `visualizations.twbx`
 
    Use this option if you're interested in the data-processing pipeline, code, or want to explore/customize the dashboard in Tableau.
 
 2. **Visualization summary only:**
 
    - Open `Tableau_Story.pdf` to view the interactive dashboard story exported from Tableau Public.
-   - Requires no technical background or tools.
 
 3. **Interpretation and written analysis:**
 
