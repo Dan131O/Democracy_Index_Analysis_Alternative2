@@ -62,10 +62,9 @@ The main goal is to test the hypothesis:
    - Aggregates indicators by regime type
    - Creates summary tables for Tableau
 
-3. **Tableau Public Dashboard:**
+3. **Tableau Public Dashboard [`visualizations.twbx`](./visualizations.twbx):**
 
    - Final tables exported manually to `.csv`
-   - Visualized in [`visualizations.twbx`](./visualizations.twbx)
    - Story PDF in [`Tableau_Story.pdf`](./Tableau_Story.pdf)
 
 ---
