@@ -128,7 +128,7 @@ The main goal is to test the hypothesis:
    port = '5432'                         # the port, if necessary ('5432' is the default port)
    ```
 
-6. **Run the Python ETL script**
+6. **Run the Python script**
    ```bash
    python csv_to_sql_tables.py
    ```
@@ -137,7 +137,7 @@ The main goal is to test the hypothesis:
    - Cleans headers and maps data types
    - Automatically creates and populates PostgreSQL tables
 
-7. **Run the SQL transformation script**
+7. **Run the SQL script**
    - Open [`data_manipulation.sql`](./data_manipulation.sql) in pgAdmin or your preferred SQL editor
    - Run all queries
    - This will:
@@ -157,7 +157,7 @@ The main goal is to test the hypothesis:
      *(Use Tableau Public Desktop to open.)*
 
    - **Build your own dashboard from scratch**  
-     → Use the `.csv` files in [`Final_csv_for_Tableau/`](./Final_csv_for_Tableau/)  
+     → Use the `.csv` files in [`Final_csv_for_Tableau/`](./Final_csv_for_Tableau)  
      Import them into Tableau manually and recreate the visualizations.
 
 
