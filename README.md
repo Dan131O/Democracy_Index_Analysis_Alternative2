@@ -2,30 +2,38 @@
 
 **A modular analysis pipeline of global Democracy Index data, using Python, PostgreSQL, and Tableau for structured data transformation, querying, and visualization.**
 
-🔁 This is the **second alternative** of the Democracy Index project. For the notebook-based first version, see:  
-📎 [Alternative 1 – Jupyter-based version](https://github.com/Dan131O/Democracy_Index_Analysis_Alternative1)  
-📄 [Alternative 1 – PDF Report](https://github.com/Dan131O/Democracy_Index_Analysis_Alternative1/blob/main/Project_Report.pdf)
+This is the **second alternative** of the Democracy Index project. For the notebook-based first alternative, see:  
+[Alternative 1 – Python + Jupyter](https://github.com/Dan131O/Democracy_Index_Analysis_Alternative1)  
+[Alternative 1 – PDF Report](https://github.com/Dan131O/Democracy_Index_Analysis_Alternative1/blob/main/Project_Report.pdf)
 
 ---
 
 ## 📊 How to View This Project
 
-You can explore the project results at three levels of detail:
+Depending on your interest, you can explore this project in the following ways:
 
-1. **Full pipeline (source code, visualizations, interpretation):**
-   - Python script: `csv_to_postgresql.py`  
-   - SQL script: `SQL_Portfolio_Democracy_Index.sql`  
-   - Tableau workbook: `Portfolio_DemocracyIndex_Final.twbx`
+1. **Full technical pipeline:**
 
-2. **Summary Report (visualizations, interpretation):**
-   - Open `Portfolio_DemocracyIndex_Story.pdf`
+   Includes:
+   - Python ETL script → `csv_to_sql_tables.py`
+   - SQL transformation logic → `data_manipulation.sql`
+   - Tableau workbook → `visualizations.twbx`
 
-3. **Visualizations only:**
-   - Browse the `Final_csv_for_Tableau/` folder
+   Use this option if you're interested in the data-processing pipeline, code, or want to explore/customize the dashboard in Tableau.
+
+2. **Visualization summary only:**
+
+   - Open `Tableau_Story.pdf` to view the interactive dashboard story exported from Tableau Public.
+   - Requires no technical background or tools.
+
+3. **Interpretation and written analysis:**
+
+   - See the report in [Alternative 1 – PDF Report](https://github.com/Dan131O/Democracy_Index_Analysis_Alternative1/blob/main/Project_Report.pdf)  
+   - Offers written interpretation of the results and detailed commentary.
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This project evaluates the relationship between the **Economist’s Democracy Index** and several key indicators:
 
@@ -40,7 +48,7 @@ The main goal is to test the hypothesis:
 
 ---
 
-## ⚙️ Core Analytical Steps
+## Core Analytical Steps
 
 1. **Python script `csv_to_postgresql.py`:**
    - Reads `.csv` datasets from `Input_DI/`
@@ -60,7 +68,7 @@ The main goal is to test the hypothesis:
 
 ---
 
-## 🔎 Example Insights
+## Example Insights
 
 - **Democracy vs. Press Freedom:** Positive correlation with Pearson *r* ≈ 0.8
 - **Democracy vs. Life Expectancy:** Moderate correlation with *r* ≈ 0.6
@@ -69,7 +77,7 @@ The main goal is to test the hypothesis:
 
 ---
 
-## 🧪 Tested Environment
+## Tested Environment
 
 - **Last updated:** Jul 12, 2025  
 - **Tested with Python versions:** 3.10 – 3.13  
@@ -77,7 +85,7 @@ The main goal is to test the hypothesis:
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 ```
 .
 ├── csv_to_postgresql.py                # Python ETL script
@@ -97,7 +105,7 @@ The main goal is to test the hypothesis:
 
 ---
 
-## 🔁 How to Reproduce
+## How to Reproduce
 
 ### A) Setup Environment
 
@@ -141,7 +149,7 @@ python csv_to_postgresql.py
 
 ---
 
-## 📚 Data Sources
+## Data Sources
 
 Complete dataset references are documented in:
 
@@ -151,7 +159,7 @@ Complete dataset references are documented in:
 
 ---
 
-## ✉️ Contact
+## Contact
 
 Questions, feedback or collaboration ideas are welcome via email (daniel.ourinson@web.de) or [LinkedIn](https://www.linkedin.com/in/daniel-ourinson-phd-200755143/).  
 Feel free to reach out directly if you'd like to discuss the project or suggest improvements.
