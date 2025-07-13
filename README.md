@@ -94,49 +94,72 @@ The main goal is to test the hypothesis:
 ### A) Setup Environment
 
 1. **Clone the repository**
-
-```bash
-git clone https://github.com/USERNAME/Democracy_Index_Analysis_Alternative2.git
-cd Democracy_Index_Analysis_Alternative2
-```
+   ```bash
+   git clone https://github.com/Dan131O/Democracy_Index_Analysis_Alternative2.git
+   cd Democracy_Index_Analysis_Alternative2
+   ```
 
 2. **Create and activate virtual environment**
+   ```bash
+   python -m venv venv
+   # Windows:
+   .\venv\Scripts\activate
+   # macOS/Linux:
+   source venv/bin/activate
+   ```
 
-```bash
-python -m venv venv
-# Windows:
-.\venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-```
+3. **Install required Python packages**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. **Install required packages**
+4. **Ensure PostgreSQL and pgAdmin are installed**
 
-```bash
-pip install -r requirements.txt
-```
+   - PostgreSQL version: 16  
+   - pgAdmin version: 4  
+   - Create a PostgreSQL database named: `Democracy_Index_Portfolio`
 
-### B) Prepare PostgreSQL
+5. **Adjust credentials** for connecting with Python to your PostgreSQL database in [`csv_to_sql_tables.py`](./csv_to_sql_tables.py)
+   ```python
+   dbname = 'Democracy_Index_Portfolio'  # your PostgreSQL database name
+   user = 'postgres'                     # your username
+   password = 'your_password_here'       # your password
+   host = 'localhost'                    # the host, if necessary ('localhost' is the default name)
+   port = '5432'                         # the port, if necessary ('5432' is the default port)
+   ```
 
-- Install PostgreSQL (if not already)
-- Create a database named `Democracy_Index_Portfolio`
-- Adjust credentials in [`csv_to_sql_tables.py`](./csv_to_sql_tables.py) if needed
+6. **Run the Python ETL script**
+   ```bash
+   python csv_to_sql_tables.py
+   ```
+   This script:
+   - Reads all raw CSVs from [`Input_Dateset/`](./Input_Dateset/)
+   - Cleans headers and maps data types
+   - Automatically creates and populates PostgreSQL tables
 
-### C) Run Python Script
+7. **Run the SQL transformation script**
+   - Open [`data_manipulation.sql`](./data_manipulation.sql) in pgAdmin or your preferred SQL editor
+   - Run all queries
+   - This will:
+     - Clean and join the base tables
+     - Aggregate metrics
+     - Produce multiple new summary tables
+   - These final summary tables have to be **manually exported to `.csv`** and saved in [`Files_SQL_to_Tableau/`](./Files_SQL_to_Tableau/)  
+     *(This step is necessary because Tableau Public cannot connect directly to SQL databases.)*
 
-```bash
-python csv_to_sql_tables.py
-```
+8. **Explore in Tableau**
 
-### D) Run SQL Script
+   You have two options:
 
-- Open [`data_manipulation.sql`](./data_manipulation.sql) in pgAdmin or a SQL editor
-- Execute all queries to generate cleaned, joined, and aggregated tables
+   - **Open the prebuilt dashboard**  
+     → [`visualizations.twbx`](./visualizations.twbx)  
+     Fully designed Tableau story; all visuals and filters are pre-configured.  
+     *(Use Tableau Public Desktop to open.)*
 
-### E) Load into Tableau
+   - **Build your own dashboard from scratch**  
+     → Use the `.csv` files in [`Final_csv_for_Tableau/`](./Final_csv_for_Tableau/)  
+     Import them into Tableau manually and recreate the visualizations.
 
-- Open [`visualizations.twbx`](./visualizations.twbx) using Tableau Public
-- Alternatively, review [`Tableau_Story.pdf`](./Tableau_Story.pdf) as a quick overview
 
 ---
 

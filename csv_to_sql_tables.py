@@ -1,6 +1,6 @@
 # Author: Daniel Ourinson
-# Date: 09/02/2025
-# Python version: 3.11.7 
+# Last updated: Jul 12, 2025
+# Tested python version: 3.11 
 
 """
 "PYTHON PART" OF THE SECOND VERSION OF THE DATA ANALYSIS OF THE DEMOCRACY INDEX
@@ -124,11 +124,11 @@ def create_table_from_csv(csv_file_path, table_name, dbname, user, password, del
 
 # Array with paths of the datasets 
 paths_datasets = [
-    '.\Input_DI\Democracy_Index_2006_2023.csv', # Democracy Index
-    '.\Input_DI\Population.csv', # Population
-    '.\Input_DI\Press_Freedom.csv', # Press freedom score
-    '.\Input_DI\Life_expectancy.csv', # Life expectancy
-    '.\Input_DI\Education.csv' # Education spending
+    '.\Input_Dataset\Democracy_Index_2006_2023.csv', # Democracy Index
+    '.\Input_Dataset\Population.csv', # Population
+    '.\Input_Dataset\Press_Freedom.csv', # Press freedom score
+    '.\Input_Dataset\Life_expectancy.csv', # Life expectancy
+    '.\Input_Dataset\Education.csv' # Education spending
 ]
 
 
