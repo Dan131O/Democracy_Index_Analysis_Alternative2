@@ -1,0 +1,147 @@
+"Country","Democracy_Index","Type","EDI"
+"Afghanistan","2.77","Authoritarian Regime","3.69522"
+"Albania","5.67","Hybrid Regime",NULL
+"Algeria","3.83","Authoritarian Regime",NULL
+"Angola","3.35","Authoritarian Regime",NULL
+"Argentina","6.84","Flawed Democracy","5.36144"
+"Armenia","4.13","Hybrid Regime","2.24724"
+"Australia","9.01","Full Democracy","5.16477"
+"Austria","8.54","Full Democracy","5.44762"
+"Azerbaijan","2.83","Authoritarian Regime","2.63304"
+"Bahrain","2.87","Authoritarian Regime","2.46746"
+"Bangladesh","5.78","Hybrid Regime",NULL
+"Belarus","3.69","Authoritarian Regime","4.81831"
+"Belgium","7.93","Flawed Democracy","6.59047"
+"Benin","5.65","Hybrid Regime","3.16179"
+"Bhutan","4.87","Hybrid Regime","6.0449"
+"Bolivia","5.79","Hybrid Regime",NULL
+"Bosnia and Herzegovina","4.78","Hybrid Regime",NULL
+"Botswana","7.87","Flawed Democracy",NULL
+"Brazil","7.38","Flawed Democracy","5.94848"
+"Bulgaria","6.73","Flawed Democracy",NULL
+"Burkina Faso","4.09","Hybrid Regime","4.0533"
+"Burundi","3.33","Authoritarian Regime","6.78452"
+"Cambodia","4.78","Hybrid Regime","1.90939"
+"Cameroon","3.41","Authoritarian Regime","2.68713"
+"Canada","9.08","Full Democracy",NULL
+"Central African Republic","1.49","Authoritarian Regime",NULL
+"Chad","1.5","Authoritarian Regime",NULL
+"Chile","7.8","Flawed Democracy","4.73095"
+"China","3","Authoritarian Regime",NULL
+"Colombia","6.55","Flawed Democracy","4.62946"
+"Comoros","3.52","Authoritarian Regime","2.74473"
+"Costa Rica","8.03","Full Democracy","6.86952"
+"Cote d'Ivoire","3.53","Authoritarian Regime","4.57743"
+"Croatia","6.93","Flawed Democracy",NULL
+"Cuba","3.52","Authoritarian Regime",NULL
+"Cyprus","7.4","Flawed Democracy","6.4485"
+"Czechia","7.94","Flawed Democracy","3.99462"
+"Denmark","9.11","Full Democracy","7.63485"
+"Djibouti","2.99","Authoritarian Regime",NULL
+"Dominican Republic","6.67","Flawed Democracy",NULL
+"Ecuador","5.87","Hybrid Regime","5.26099"
+"El Salvador","6.53","Flawed Democracy","3.82416"
+"Equatorial Guinea","1.66","Authoritarian Regime",NULL
+"Eritrea","2.44","Authoritarian Regime",NULL
+"Estonia","7.74","Flawed Democracy","5.36708"
+"Eswatini","3.09","Authoritarian Regime","7.07032"
+"Ethiopia","3.72","Authoritarian Regime","4.60202"
+"Fiji","5.61","Hybrid Regime",NULL
+"Finland","9.03","Full Democracy","7.10237"
+"France","8.04","Full Democracy",NULL
+"Gabon","3.76","Authoritarian Regime","2.66667"
+"Georgia","5.82","Hybrid Regime",NULL
+"Germany","8.64","Full Democracy","4.93962"
+"Ghana","6.33","Flawed Democracy","4.49182"
+"Greece","7.45","Flawed Democracy",NULL
+"Guatemala","5.81","Hybrid Regime","2.98562"
+"Guinea","3.01","Authoritarian Regime","2.42281"
+"Guinea-Bissau","1.93","Authoritarian Regime",NULL
+"Guyana","5.91","Hybrid Regime","5.84796"
+"Haiti","3.82","Authoritarian Regime","3.02452"
+"Honduras","5.84","Hybrid Regime","7.09012"
+"Hungary","6.9","Flawed Democracy","4.61743"
+"Iceland","9.58","Full Democracy","7.68858"
+"India","7.92","Flawed Democracy",NULL
+"Indonesia","6.95","Flawed Democracy","3.28801"
+"Iraq","4.23","Hybrid Regime",NULL
+"Ireland","8.72","Full Democracy","4.88139"
+"Israel","7.63","Flawed Democracy","5.79265"
+"Italy","7.85","Flawed Democracy","4.06128"
+"Jamaica","7.39","Flawed Democracy","6.01654"
+"Japan","8.08","Full Democracy","3.59059"
+"Jordan","3.76","Authoritarian Regime",NULL
+"Kazakhstan","3.17","Authoritarian Regime",NULL
+"Kenya","5.13","Hybrid Regime","5.28021"
+"Kuwait","3.78","Authoritarian Regime",NULL
+"Latvia","7.48","Flawed Democracy","5.2749"
+"Lebanon","5.12","Hybrid Regime",NULL
+"Lesotho","6.66","Flawed Democracy",NULL
+"Liberia","4.95","Hybrid Regime","2.2791"
+"Libya","3.8","Authoritarian Regime",NULL
+"Lithuania","7.54","Flawed Democracy","4.49106"
+"Luxembourg","8.88","Full Democracy","4.00789"
+"Madagascar","4.42","Hybrid Regime","2.38123"
+"Malawi","5.66","Hybrid Regime","4.83984"
+"Malaysia","6.49","Flawed Democracy","5.21264"
+"Mali","5.79","Hybrid Regime","3.64807"
+"Myanmar","3.05","Authoritarian Regime",NULL
+"Malta","8.39","Full Democracy","7.20495"
+"Mauritania","4.17","Hybrid Regime",NULL
+"Mauritius","8.17","Full Democracy","4.91695"
+"Mexico","6.68","Flawed Democracy","5.26062"
+"Moldova","6.32","Flawed Democracy","6.26602"
+"Mongolia","6.62","Flawed Democracy","4.71485"
+"Montenegro","5.94","Hybrid Regime",NULL
+"Morocco","4","Hybrid Regime",NULL
+"Mozambique","4.66","Hybrid Regime",NULL
+"Namibia","6.24","Flawed Democracy",NULL
+"Nepal","4.77","Hybrid Regime","3.99302"
+"Netherlands","8.92","Full Democracy","5.4589"
+"New Zealand","9.26","Full Democracy","6.34445"
+"Nicaragua","5.32","Hybrid Regime","4.08328"
+"Niger","4.02","Hybrid Regime","5.12745"
+"Nigeria","3.76","Authoritarian Regime",NULL
+"North Macedonia","6.25","Flawed Democracy",NULL
+"Norway","9.93","Full Democracy","7.69504"
+"Oman","3.15","Authoritarian Regime",NULL
+"Pakistan","4.64","Hybrid Regime","2.46593"
+"Panama","7.08","Flawed Democracy",NULL
+"Papua New Guinea","6.03","Flawed Democracy",NULL
+"Paraguay","6.26","Flawed Democracy",NULL
+"Peru","6.54","Flawed Democracy","3.69599"
+"Philippines","6.77","Flawed Democracy",NULL
+"Poland","7.47","Flawed Democracy","4.90918"
+"Portugal","7.79","Flawed Democracy","5.124"
+"Qatar","3.18","Authoritarian Regime","3.60535"
+"Romania","6.68","Flawed Democracy","3.12642"
+"Rwanda","3.25","Authoritarian Regime","4.17978"
+"Saudi Arabia","1.82","Authoritarian Regime",NULL
+"Senegal","6.15","Flawed Democracy","5.72021"
+"Serbia","6.71","Flawed Democracy","3.92698"
+"Sierra Leone","4.56","Hybrid Regime","2.66292"
+"Singapore","6.03","Flawed Democracy",NULL
+"Slovenia","7.57","Flawed Democracy","5.2917"
+"South Africa","7.82","Flawed Democracy",NULL
+"Spain","8.05","Full Democracy","4.30338"
+"Sri Lanka","5.69","Hybrid Regime","1.93288"
+"Sudan","2.54","Authoritarian Regime",NULL
+"Suriname","6.77","Flawed Democracy",NULL
+"Sweden","9.73","Full Democracy","7.57373"
+"Switzerland","9.09","Full Democracy","5.05123"
+"Tajikistan","2.37","Authoritarian Regime",NULL
+"Tanzania","5.77","Hybrid Regime","3.38488"
+"Thailand","5.39","Hybrid Regime",NULL
+"Togo","3.45","Authoritarian Regime","4.78455"
+"Trinidad and Tobago","6.99","Flawed Democracy",NULL
+"Tunisia","6.31","Flawed Democracy",NULL
+"Turkmenistan","1.83","Authoritarian Regime",NULL
+"Uganda","5.22","Hybrid Regime","1.93036"
+"Ukraine","5.42","Hybrid Regime","5.87494"
+"United Arab Emirates","2.64","Authoritarian Regime",NULL
+"United Kingdom","8.31","Full Democracy","5.599"
+"United States","8.11","Full Democracy","4.96174"
+"Uruguay","8.17","Full Democracy",NULL
+"Uzbekistan","2.45","Authoritarian Regime","6.02527"
+"Zambia","6.39","Flawed Democracy",NULL
+"Zimbabwe","2.78","Authoritarian Regime","6.13835"
