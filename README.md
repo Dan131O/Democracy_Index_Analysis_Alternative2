@@ -47,28 +47,6 @@ The main goal is to test the hypothesis:
 
 ---
 
-## Core Analytical Steps
-
-1. **Python script **[`csv_to_sql_tables.py`](./csv_to_sql_tables.py)**:**
-
-   - Reads `.csv` datasets from `Input_Datasets/`
-   - Cleans column names and detects data types
-   - Creates and populates SQL tables in PostgreSQL
-
-2. **SQL script **[`data_manipulation.sql`](./data_manipulation.sql)**:**
-
-   - Cleans and standardizes all PostgreSQL tables
-   - Joins datasets by country and year
-   - Aggregates indicators by regime type
-   - Creates summary tables for Tableau
-
-3. **Tableau Public Dashboard [`visualizations.twbx`](./visualizations.twbx):**
-
-   - Final tables exported manually to `.csv`
-   - Story PDF in [`Tableau_Story.pdf`](./Tableau_Story.pdf)
-
----
-
 ## Example Insights
 
 - **Democracy vs. Press Freedom:** Positive correlation with Pearson *r* ≈ 0.8
